@@ -21,11 +21,11 @@ public class Demo2Main
         
         Session session = sessionfactory.openSession();
         session.beginTransaction();
-        session.save(new Customer("Janeve"));
-        session.save(new Customer("Sudheer"));
-        session.save(new Customer("Bhavul"));
-        session.save(new Customer("Amisha"));
-        session.save(new Customer("Vandan"));
+        session.save(new Customer("Jay"));
+        session.save(new Customer("Sanchari"));
+        session.save(new Customer("Shivaprasad"));
+        session.save(new Customer("Saikat"));
+        session.save(new Customer("Swetha"));
         session.getTransaction().commit();
         session.close();
         
